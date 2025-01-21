@@ -19,7 +19,7 @@ pip install -r requirements.txt
 python3 src/gemini_decompilation.py 
 ```
 This is an example on how to load json and use Gemini to do the decompilation.
-**Note: This will consume around 10 miniutes to finish and consume aroun 1 pound money**
+**Note: This will consume around 10 miniutes to finish and consume around 1 pound money**
 
 2. Validate whether the prediction can pass the compilation and IO test.
 ```bash
@@ -40,11 +40,12 @@ will get the assembly file `tmp.s`.
 
 
 ### TODO
-1. First read through the `gemini_decompilation.py` to understand how the gemini api works.
 
-2. Use the [Gemini](https://gemini.google.com) to try to decompile the assembly code to llvm ir.
+1. [ ] First read through the `gemini_decompilation.py` to understand how the gemini api works.
+
+2. [ ] Use the [Gemini](https://gemini.google.com) to try to decompile the assembly code to llvm ir.
 You can open an premire account with 1 month free.
 
-3. Use the feed back from `llc` compiler to guide the Gemini to produce the correct answer. This may require you to write some python code;
+3. [ ] Use the feed back from `llc` compiler to guide the Gemini to produce the correct answer. This may require you to write some python code;
 
-4. Read through the `evaluate_exebench.py` to write the code the verify the correctness of the predicted llvm ir.
+4. [ ] Read through the `evaluate_exebench.py` to write the code the verify the correctness of the predicted llvm ir.
