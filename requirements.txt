@@ -1,0 +1,12 @@
+# Core dependencies
+requests==2.28.1
+pandas==1.5.1
+numpy==1.23.4
+google-ai-generativelanguage==0.6.10
+google-api-core==2.24.0
+google-api-python-client==2.158.0
+google-auth==2.37.0
+google-auth-httplib2==0.2.0
+google-genai==0.4.0
+google-generativeai==0.8.3
+googleapis-common-protos==1.66.0

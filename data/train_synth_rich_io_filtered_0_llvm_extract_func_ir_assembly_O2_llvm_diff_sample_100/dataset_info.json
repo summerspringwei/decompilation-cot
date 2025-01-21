@@ -1,0 +1,216 @@
+{
+  "citation": "",
+  "description": "",
+  "features": {
+    "path": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "func_def": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "func_head": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "func_head_types": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "fname": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "signature": {
+      "feature": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "_type": "Sequence"
+    },
+    "asm": {
+      "code": {
+        "feature": {
+          "dtype": "string",
+          "_type": "Value"
+        },
+        "_type": "Sequence"
+      },
+      "target": {
+        "feature": {
+          "dtype": "string",
+          "_type": "Value"
+        },
+        "_type": "Sequence"
+      }
+    },
+    "synth_deps": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "real_deps": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "synth_io_pairs": {
+      "dummy_funcs": {
+        "feature": {
+          "dtype": "string",
+          "_type": "Value"
+        },
+        "_type": "Sequence"
+      },
+      "dummy_funcs_seed": {
+        "feature": {
+          "dtype": "int64",
+          "_type": "Value"
+        },
+        "_type": "Sequence"
+      },
+      "input": [
+        {
+          "value": {
+            "feature": {
+              "dtype": "string",
+              "_type": "Value"
+            },
+            "_type": "Sequence"
+          },
+          "var": {
+            "feature": {
+              "dtype": "string",
+              "_type": "Value"
+            },
+            "_type": "Sequence"
+          }
+        }
+      ],
+      "output": [
+        {
+          "value": {
+            "feature": {
+              "dtype": "string",
+              "_type": "Value"
+            },
+            "_type": "Sequence"
+          },
+          "var": {
+            "feature": {
+              "dtype": "string",
+              "_type": "Value"
+            },
+            "_type": "Sequence"
+          }
+        }
+      ]
+    },
+    "real_io_pairs": {
+      "dummy_funcs": {
+        "feature": {
+          "dtype": "null",
+          "_type": "Value"
+        },
+        "_type": "Sequence"
+      },
+      "dummy_funcs_seed": {
+        "feature": {
+          "dtype": "null",
+          "_type": "Value"
+        },
+        "_type": "Sequence"
+      },
+      "input": [
+        {
+          "value": {
+            "feature": {
+              "dtype": "string",
+              "_type": "Value"
+            },
+            "_type": "Sequence"
+          },
+          "var": {
+            "feature": {
+              "dtype": "string",
+              "_type": "Value"
+            },
+            "_type": "Sequence"
+          }
+        }
+      ],
+      "output": [
+        {
+          "value": {
+            "feature": {
+              "dtype": "string",
+              "_type": "Value"
+            },
+            "_type": "Sequence"
+          },
+          "var": {
+            "feature": {
+              "dtype": "string",
+              "_type": "Value"
+            },
+            "_type": "Sequence"
+          }
+        }
+      ]
+    },
+    "synth_exe_wrapper": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "real_exe_wrapper": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "ref": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "synth_iospec": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "real_iospec": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "llvm_ir": {
+      "bb_count": {
+        "bb_list_size": {
+          "feature": {
+            "dtype": "int64",
+            "_type": "Value"
+          },
+          "_type": "Sequence"
+        },
+        "bbcount": {
+          "dtype": "int64",
+          "_type": "Value"
+        },
+        "func_name": {
+          "dtype": "string",
+          "_type": "Value"
+        }
+      },
+      "code": {
+        "feature": {
+          "dtype": "string",
+          "_type": "Value"
+        },
+        "_type": "Sequence"
+      },
+      "target": {
+        "feature": {
+          "dtype": "string",
+          "_type": "Value"
+        },
+        "_type": "Sequence"
+      }
+    }
+  },
+  "homepage": "",
+  "license": ""
+}
